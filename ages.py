@@ -1,5 +1,9 @@
-ages = {"Alice": 22, "Bob": 27}
-ages["Charlie"] = 30
-ages["Alice"] = ages["Alice"] + 1
 
-print(ages)
+class Point:
+    def __init__(self, x, y):
+        self.y = y;
+        self.x = x;
+
+p = Point(3, 5)
+print(p.x)
+print(p.y)
